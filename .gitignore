@@ -1,0 +1,10 @@
+/*
+# git files
+!.gitignore
+!README.md
+
+# configs
+!nvim/
+!i3/
+!alacritty/
+!polybar/
