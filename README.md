@@ -1,13 +1,23 @@
 ## NeoVim
 
-1. Install packer
+### Install Dependencies
 
-```bassh
+#### packer
+
+```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-2. Restart NeoVim
-3. Go to lua/thiagokoster/packer.lua
-4. Execute :so
-5. Execute :PackerInstall
+#### ripgrep
+
+```bash
+sudo pacman -S ripgrep
+```
+
+### Install plugins
+
+1. Restart NeoVim if open
+2. Go to lua/thiagokoster/packer.lua
+3. Execute :so
+4. Execute :PackerInstall
