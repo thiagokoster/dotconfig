@@ -34,3 +34,8 @@ shift + alt - r : yabai -m space --rotate 90
 
 # toggle window float
 shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+
+# stop/start/restart yabai
+ctrl + alt - q : brew services stop yabai
+ctrl + alt - s : brew services start yabai
+ctrl + alt - t : brew services restart yabai
