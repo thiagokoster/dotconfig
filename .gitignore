@@ -8,3 +8,7 @@
 !i3/
 !alacritty/
 !polybar/
+
+# mac specific configs
+!skhd/
+!yabai

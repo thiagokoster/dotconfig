@@ -1,2 +1,7 @@
 window:
   opacity: 0.90
+  decorations: buttonless
+  padding:
+    x: 4
+    y: 4
+  dynamic_padding: true
